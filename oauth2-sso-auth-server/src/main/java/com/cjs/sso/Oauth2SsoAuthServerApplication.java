@@ -8,6 +8,7 @@ public class Oauth2SsoAuthServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Oauth2SsoAuthServerApplication.class, args);
+        System.out.println("程序正在运行...");
     }
 
 }

@@ -1,8 +1,8 @@
 package com.cjs.sso.service.impl;
 
 import com.cjs.sso.entity.SysUser;
-import com.cjs.sso.repository.SysUserRepository;
 import com.cjs.sso.service.UserService;
+import com.cjs.sso.repository.SysUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

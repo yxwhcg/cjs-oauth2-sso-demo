@@ -1,12 +1,12 @@
 package com.cjs.sso.service.impl;
 
 import com.cjs.sso.entity.SysPermission;
-import com.cjs.sso.entity.SysRolePermission;
 import com.cjs.sso.entity.SysUserRole;
+import com.cjs.sso.service.PermissionService;
+import com.cjs.sso.entity.SysRolePermission;
 import com.cjs.sso.repository.SysPermissionRepository;
 import com.cjs.sso.repository.SysRolePermissionRepository;
 import com.cjs.sso.repository.SysUserRoleRepository;
-import com.cjs.sso.service.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
